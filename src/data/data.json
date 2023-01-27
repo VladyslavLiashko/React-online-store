@@ -1,0 +1,11 @@
+{
+    "Categories": {
+        "h1": "Categories",
+        "showAllBtn": "ShowAll",
+        "button": "Show All"
+    },
+    "BestSales": {
+        "h1": "Best Sales",
+        "button": "Show More"
+    }
+}

@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './Components/Header/Header';
+import Main from './Components/Main/Main';
+import Json from "./data/data.json";
+import BuyCard from './Components/Main/BuyCard/BuyCard';
+import ProductCard from './data/productCard';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Main data ={Json}/>,
+    },
+    {
+      path:`/item/:productId`,
+      element:<BuyCard/>
+    }
+  ]);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      {/* <Main data ={Json}/> */}
+      <RouterProvider router={router} />
     </div>
   );
 }

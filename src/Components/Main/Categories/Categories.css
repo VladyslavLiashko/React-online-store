@@ -1,0 +1,19 @@
+.categories-main h1 {
+  font-style: normal;
+  font-weight: 591;
+  font-size: 28px;
+  color: #1E1E1E;
+  padding-left: 3%;
+}
+.categories-main .cards-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.categories-main button {
+  width: 100%;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+}/*# sourceMappingURL=Categories.css.map */

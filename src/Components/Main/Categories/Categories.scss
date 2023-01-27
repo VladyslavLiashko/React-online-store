@@ -1,0 +1,26 @@
+.categories-main {
+    // max-width: 80%;
+    // margin: auto;
+
+    h1 {
+        font-style: normal;
+        font-weight: 591;
+        font-size: 28px;
+        color: #1E1E1E;
+        padding-left: 3%;
+    }
+
+    .cards-wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    button {
+        width: 100%;
+        text-align: center;
+        background: #FFFFFF;
+        border-radius: 10px;
+        border: none;
+        height: 40px;
+    }
+}

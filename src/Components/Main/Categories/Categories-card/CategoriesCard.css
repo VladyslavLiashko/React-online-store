@@ -1,0 +1,19 @@
+.categories-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 10%;
+  border-radius: 10px;
+  margin-bottom: 3%;
+  transition-property: transform;
+  transition-duration: 1s;
+}
+.categories-card-wrapper img {
+  border-radius: 10px;
+}
+
+.categories-card-wrapper:hover {
+  transform: perspective(500px) translateZ(50px);
+}/*# sourceMappingURL=CategoriesCard.css.map */

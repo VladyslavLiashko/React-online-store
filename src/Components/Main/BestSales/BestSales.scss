@@ -1,0 +1,22 @@
+.best-sales {
+    padding-bottom: 1%;
+    h1 {
+        padding-left: 3%;
+    }
+
+    .best-sales-wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    button {
+        width: 100%;
+        text-align: center;
+        background: #FFFFFF;
+        border-radius: 10px;
+        border: none;
+        height: 40px;
+
+    }
+}
