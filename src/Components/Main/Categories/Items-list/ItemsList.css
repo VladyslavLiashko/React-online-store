@@ -1,0 +1,11 @@
+.items-list {
+  background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+}
+.items-list h1 {
+  margin-top: 0;
+}
+.items-list .item-list-wrapper {
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=ItemsList.css.map */

@@ -11,11 +11,13 @@ const ProductCard = (props) => {
         navigate(`/item/${props.data.id}`)
     }
     return (
-        <div className="product-card-wrapper">
+        <div className="product-card-wrapper"onClick={showItem}>
             <div className="fav-pro">
                 <img src={favorite} alt="" />
             </div>
-            <img src={props.data.img} alt="AirPods" srcset="" />
+            <div className="product-img">
+                <img src={props.data.img} alt="AirPods" srcset="" id="pr-image" />
+            </div>
             <h1>{props.data.price}</h1>
             <p className="product-desc">{props.data.desc}</p>
             <p className="product-quantity">{props.data.quantity}</p>

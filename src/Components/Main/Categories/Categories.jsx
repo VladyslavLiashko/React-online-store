@@ -9,7 +9,7 @@ const Categories = (props) => {
     return (
         <div className="categories-main">
             <h1>{props.name.h1}</h1>
-            <div className="cards-wrapper">
+            <div className="cards-wrapper" >
                 {item}
             </div>
             <button>{props.name.button}</button>

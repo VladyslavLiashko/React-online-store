@@ -7,13 +7,25 @@
     margin-bottom: 3%;
     transition-property: transform;
     transition-duration: 1s;
-    cursor:pointer;
-    .fav-pro{
+    cursor: pointer;
+
+    .fav-pro {
         display: flex;
         justify-content: right;
     }
+
     img {
         border-radius: 10px;
+    }
+
+    .product-img {
+        display: flex;
+        justify-content: center;
+
+        #pr-image {
+            width: 80%;
+
+        }
     }
 
     h1 {

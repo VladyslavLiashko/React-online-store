@@ -7,5 +7,23 @@
     "BestSales": {
         "h1": "Best Sales",
         "button": "Show More"
+    },
+    "Footer":{
+        "AboutUs":{
+            "h1": "Find us on city!",
+            "city":"Kyiv, Ukraine",
+            "index": "02000",
+            "street": "Maidan Nezalezhnosti 2a"
+        },
+        "Media":{
+            "h1":"About us",
+            "email":"contact@nextstore.ua",
+            "phone":"+380 95 122 22 11",
+            "socials": "Join us on social media!"
+        },
+        "Last":{
+            "name":"2022  Nextstore.com",
+            "author":"Powered by Vladyslav Liashko"
+        }
     }
 }

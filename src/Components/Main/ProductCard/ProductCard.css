@@ -14,6 +14,13 @@
 .product-card-wrapper img {
   border-radius: 10px;
 }
+.product-card-wrapper .product-img {
+  display: flex;
+  justify-content: center;
+}
+.product-card-wrapper .product-img #pr-image {
+  width: 80%;
+}
 .product-card-wrapper h1 {
   font-style: normal;
   font-weight: 591;

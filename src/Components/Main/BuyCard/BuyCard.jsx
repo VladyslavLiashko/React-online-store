@@ -2,7 +2,6 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "./BuyCard.css";
 import items from "../../../data/productCard";
-import MB2 from "../../../assets/img/MB2.png"
 const BuyCard = () => {
     let { productId } = useParams();
     console.log(productId);
