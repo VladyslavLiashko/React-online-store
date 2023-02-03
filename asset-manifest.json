@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-online-store/static/css/main.5be336ef.css",
-    "main.js": "/React-online-store/static/js/main.6c55ab1f.js",
+    "main.css": "/React-online-store/static/css/main.69ddf38b.css",
+    "main.js": "/React-online-store/static/js/main.6e3744ba.js",
     "static/js/787.28cb0dcd.chunk.js": "/React-online-store/static/js/787.28cb0dcd.chunk.js",
     "static/media/Carusel-image3.jpg": "/React-online-store/static/media/Carusel-image3.5ea5a5c97c72724860b8.jpg",
     "static/media/Carusel-image.png": "/React-online-store/static/media/Carusel-image.d7ef746ca6aaab45cbe5.png",
@@ -19,12 +19,12 @@
     "static/media/PodsPro.png": "/React-online-store/static/media/PodsPro.531fa70213fa7b37f4c4.png",
     "static/media/Carusel-image2.png": "/React-online-store/static/media/Carusel-image2.065da08aa437b0a53b7b.png",
     "index.html": "/React-online-store/index.html",
-    "main.5be336ef.css.map": "/React-online-store/static/css/main.5be336ef.css.map",
-    "main.6c55ab1f.js.map": "/React-online-store/static/js/main.6c55ab1f.js.map",
+    "main.69ddf38b.css.map": "/React-online-store/static/css/main.69ddf38b.css.map",
+    "main.6e3744ba.js.map": "/React-online-store/static/js/main.6e3744ba.js.map",
     "787.28cb0dcd.chunk.js.map": "/React-online-store/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5be336ef.css",
-    "static/js/main.6c55ab1f.js"
+    "static/css/main.69ddf38b.css",
+    "static/js/main.6e3744ba.js"
   ]
 }
