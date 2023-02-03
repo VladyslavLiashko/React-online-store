@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Header.css";
 import Logo from "../../assets/img/Header-logo.png";
 import Heart from "../../assets/img/heart-btn.png";
 import Shop from "../../assets/img/shop-btn.png";
-import Hamburger from "../../assets/img/hamburger.png"
+import Hamburger from "../../assets/img/hamburger.png";
+import Menu from '../Menu/Menu';
 
 const Header = () => {
+    const [menuActive, setMenuActive] = useState(false)
     return (
         <div className="header">
             <img src={Logo} alt="logo" />
@@ -21,8 +23,8 @@ const Header = () => {
                     <img src={Shop} alt="shop" />
                 </div>
             </div>
-            <button><img src={Hamburger} alt="" /></button>
-
+            <button onClick={()=> setMenuActive(!menuActive)}><img src={Hamburger} alt="catalog" /></button>
+            <Menu active={menuActive} setActive={setMenuActive}/>
         </div>
     )
 }

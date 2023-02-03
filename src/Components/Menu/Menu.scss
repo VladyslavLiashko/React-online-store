@@ -1,0 +1,35 @@
+.menu {
+    position: fixed;
+    top: 5vw;
+    right: 0;
+    width: 20vw;
+    height: 40vw;
+    background-color: rgb(126, 126, 126);
+    // display: none;
+    transform: translateX(100%);
+    transition: 1s;
+    border-radius: 12px;
+    text-align: center;
+
+    h1 {
+        color: white;
+        border-bottom: 1px solid white;
+        padding-bottom: 5%;
+    }
+
+    a {
+        text-decoration: none;
+        p {
+            color: white;
+        }
+        p:hover{
+            color: black;
+            transition: 1s;
+        }
+    }
+}
+
+.menu.active {
+    // display: block;
+    transform: translateX(0);
+}

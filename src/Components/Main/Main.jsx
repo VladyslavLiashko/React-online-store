@@ -7,7 +7,7 @@ import "./Main.css"
 const Main = (props) =>{
     return(
         <div className="main">
-            <Carusel/>
+            {/* <Carusel/> */}
             <Categories name ={props.data.Categories} />
             <BestSales data ={props.data.BestSales} name = {props.data.ProductCard}/>
         </div>

@@ -30,7 +30,7 @@ function App() {
   return (
     <div>
       <Header/>
-      {/* <Main data ={Json}/> */}
+      {/* <Menu/> */}
       <RouterProvider router={router} />
       <Footer data ={Json.Footer}/>
     </div>
